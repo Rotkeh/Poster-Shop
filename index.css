@@ -14,9 +14,30 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 5em;
+    gap: 8em;
     align-items: center;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 10% 10em 10%;
+    justify-content: center;
+    gap: 5em;
+}
+
+.main-row {
+    display: flex;
+    gap: 2em;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: space-between;
+}
+
 
 /* TYPOGRAPHY */
 
@@ -27,8 +48,18 @@ h1 {
     font-family: sans-serif;
 }
 
-p {
+p, h3, a {
     font-family: sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 /* COMPONENTS */
@@ -42,4 +73,37 @@ p {
 .header-img__nav {
     margin: 1em;
     align-self: flex-start;
+}
+
+/* COMPONENTS - Main*/
+
+.main {
+    background-color: black;
+}
+
+.main-card img {
+    width: 100%;
+}
+
+.main-card__button {
+    background-color: rgba(232,63,87,255);
+    padding: 0.6em 1em;
+    border-radius: 0.5em;
+    align-self: flex-start;
+    margin-top: 1em;
+}
+
+.card-big {
+    background-color: white;
+}
+
+.card-big h3,
+.card-big p {
+    color: black;
+    margin-left: 1rem;
+}
+
+.card-big a {
+    margin: 3rem 0 1rem 1rem;
+    border-radius: 0.2rem;
 }
