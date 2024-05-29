@@ -8,7 +8,38 @@
     border: 1px solid black;
 }
 
-img {
-    height: 100px;
-    width: 100px;
+/* LAYOUT */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5em;
+    align-items: center;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+    font-size: 5rem;
+    color: rgba(32,33,35,255);
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+/* COMPONENTS */
+
+/* COMPONENTS - Header*/
+
+.header {
+    background-color: rgba(61,224,126,255);
+}
+
+.header-img__nav {
+    margin: 1em;
+    align-self: flex-start;
 }
