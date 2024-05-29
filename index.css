@@ -21,7 +21,7 @@
 .main {
     display: flex;
     flex-direction: column;
-    padding: 5em 10% 10em 10%;
+    padding: 5em 15% 10em 15%;
     justify-content: center;
     gap: 5em;
 }
@@ -40,7 +40,7 @@
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 3em;
     height: 20em;
     width: 100%;
@@ -155,4 +155,70 @@ h3 {
 
 .footer-social-logos img {
     align-self: flex-start;
+}
+
+/* COMPONENTS - Checkout*/
+
+.checkout {
+    gap: 2em;
+    padding: 8em 15% 10em 15%;
+}
+
+.card-checkout a {
+    margin: 0rem 0 1rem 1rem;
+    border-radius: 0.2rem;
+}
+
+.main-price {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 3em 0;
+}
+
+.main-price-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-price_cell-1 {
+    flex: 3;
+}
+
+.main-price_cell-2 {
+    flex: 2;
+}
+
+.main-price_cell-3 {
+    flex: 1;
+}
+
+.main-price-row__head {
+    background-color: rgba(47,11,11,255);
+    padding: .5em 0;
+}
+
+.main-price-row__data {
+    font-size: 1.5rem;
+}
+
+.line {
+    height: 0.2em;
+    width: 100%;
+    background-color: gray;
+}
+
+.main-price-row__total {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.main-checkout-button {
+    background-color: rgba(232,63,87,255);
+    padding: 0.6em 1em;
+    border-radius: 0.2em;
+    align-self: flex-end;
+    margin-top: 3em;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
